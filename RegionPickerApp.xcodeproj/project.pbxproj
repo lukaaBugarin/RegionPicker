@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1905702A0D0696008B6D9E /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C19056F2A0D0696008B6D9E /* HeaderCell.swift */; };
+		3C1905722A0D30A8008B6D9E /* RegionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1905712A0D30A8008B6D9E /* RegionCell.swift */; };
 		3C6A17572A0CE27F00DC95A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A17562A0CE27F00DC95A1 /* AppDelegate.swift */; };
 		3C6A17592A0CE27F00DC95A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A17582A0CE27F00DC95A1 /* SceneDelegate.swift */; };
 		3C6A175B2A0CE27F00DC95A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A175A2A0CE27F00DC95A1 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		3C6A176E2A0CE28200DC95A1 /* RegionPickerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A176D2A0CE28200DC95A1 /* RegionPickerAppTests.swift */; };
 		3C6A17782A0CE28200DC95A1 /* RegionPickerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A17772A0CE28200DC95A1 /* RegionPickerAppUITests.swift */; };
 		3C6A177A2A0CE28200DC95A1 /* RegionPickerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6A17792A0CE28200DC95A1 /* RegionPickerAppUITestsLaunchTests.swift */; };
+		3C97F86A2A121B3400C418CA /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C97F8692A121B3400C418CA /* ButtonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C19056F2A0D0696008B6D9E /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		3C1905712A0D30A8008B6D9E /* RegionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionCell.swift; sourceTree = "<group>"; };
 		3C6A17532A0CE27F00DC95A1 /* RegionPickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegionPickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6A17562A0CE27F00DC95A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C6A17582A0CE27F00DC95A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		3C6A17732A0CE28200DC95A1 /* RegionPickerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegionPickerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6A17772A0CE28200DC95A1 /* RegionPickerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionPickerAppUITests.swift; sourceTree = "<group>"; };
 		3C6A17792A0CE28200DC95A1 /* RegionPickerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionPickerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C97F8692A121B3400C418CA /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				3C6A17562A0CE27F00DC95A1 /* AppDelegate.swift */,
 				3C6A17582A0CE27F00DC95A1 /* SceneDelegate.swift */,
 				3C6A175A2A0CE27F00DC95A1 /* ViewController.swift */,
+				3C19056F2A0D0696008B6D9E /* HeaderCell.swift */,
+				3C1905712A0D30A8008B6D9E /* RegionCell.swift */,
+				3C97F8692A121B3400C418CA /* ButtonCell.swift */,
 				3C6A175C2A0CE27F00DC95A1 /* Main.storyboard */,
 				3C6A175F2A0CE28100DC95A1 /* Assets.xcassets */,
 				3C6A17612A0CE28100DC95A1 /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1905702A0D0696008B6D9E /* HeaderCell.swift in Sources */,
 				3C6A175B2A0CE27F00DC95A1 /* ViewController.swift in Sources */,
 				3C6A17572A0CE27F00DC95A1 /* AppDelegate.swift in Sources */,
+				3C1905722A0D30A8008B6D9E /* RegionCell.swift in Sources */,
 				3C6A17592A0CE27F00DC95A1 /* SceneDelegate.swift in Sources */,
+				3C97F86A2A121B3400C418CA /* ButtonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
